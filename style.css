@@ -1,0 +1,171 @@
+* {
+padding: 0;
+margin:0;
+
+}
+
+body {
+background-color:#f3f3f3;
+line-height:1.9em;
+font-family: 'Nixie One', cursive;
+font-size:.85em;
+
+
+}
+
+#wrapper {
+	width:1200px;
+	
+	margin: 0 auto;
+	z-index: -1;
+	overflow: visible;
+
+}
+
+#header {
+float: left;
+background:url(headerbackgrd.png) center  ;
+
+background-color:#f1f1f1;
+
+position: fixed;
+    top: 0px;
+    z-index: 999;
+    height:160px;
+    width: 100%;
+	border-bottom:3px;
+	border-bottom-color:#333;
+	border-bottom-style:dotted;
+	border-width:thin;
+	
+	
+}
+
+
+
+#main_content {
+background-image:url(wrapper.png);
+	background-repeat:no-repeat;
+	float: left;
+	margin:180px 5px 10px 0px;
+	width:1200px;
+	height:1800px;
+	
+
+
+}
+
+#main_content2 {
+background:#f1f1f1;
+	float: right;
+	
+	margin:10px 5px 45px 0px;
+	width:630px;
+	height:330px;
+	
+
+
+}
+
+#main_content2 p, #side_bar p {
+	
+	margin-left:50px;
+	width:88%;
+	text-align:justify;
+	font-weight:100;
+	
+	
+}
+
+#main_content2 h2, #side_bar h2 {
+	margin-bottom: 20px;
+	margin-top: 30px;
+	font-weight:200;
+	margin-left:30px;
+	
+}
+	
+
+
+#side_bar {
+	float: left;
+	margin:30px 0px 45px 28px;
+	background:url(sidebar.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	width:520px;
+	height:330px;
+}
+
+#footer {
+clear:both;
+float: left;
+background: #f1f1f1;
+border-top: thin dotted;
+margin-top:20px;
+border-top-color:#797676;
+width:100%;
+	height: 150px;
+	
+}
+
+
+
+
+#header h3 {
+	text-align:center;
+	margin-top:83px;
+	letter-spacing:4px;
+	text-transform:uppercase;
+	 letter-spacing: .29rem;
+    color: #576674;
+	font-weight:200;
+}
+
+
+
+
+#header li {
+	padding:5px 25px 5px 25px;
+	display:inline;
+	margin-left:auto;
+	margin-right:auto;
+	color:#333;
+	
+	
+}
+
+
+#header li a {
+	text-decoration:none;
+	color:#6D6969;
+	text-transform:capitalize;
+	letter-spacing:.09rem;
+	font-size:small;
+	padding:5px 25px 10px 25px;
+}
+
+#header li a:hover {
+	background-color:#523E7C;
+	color:#fff;
+	padding:5px 25px 13px 25px;
+
+
+	
+}
+
+#header ul {
+	margin-top:18px;
+	margin-left:auto;
+	margin-right:0;
+	text-align:center;
+	
+}
+
+h2, h4, h3 {
+	font-family: 'Linden Hill', serif;
+
+}
+
+
+	
